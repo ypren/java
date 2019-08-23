@@ -11,6 +11,7 @@
     <modules>
         <module>concurrent</module>
         <module>algo</module>
+        <module>util</module>
     </modules>
 
     <parent>
