@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>java.concurrent</artifactId>
+    <artifactId>hello-redis</artifactId>
     <build>
         <plugins>
             <plugin>
@@ -25,13 +25,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
+            <groupId>org.redisson</groupId>
+            <artifactId>redisson</artifactId>
+            <version>2.10.7</version>
         </dependency>
     </dependencies>
 </project>

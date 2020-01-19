@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hello-redis" />
+        <module name="algo" />
+        <module name="util" />
+        <module name="java.concurrent" />
+        <module name="hello-java" />
+        <module name="practice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="algo" target="8" />
+      <module name="hello-java" target="1.6" />
+      <module name="hello-redis" target="8" />
+      <module name="java" target="1.6" />
+      <module name="java.concurrent" target="8" />
+      <module name="practice" target="1.6" />
+      <module name="util" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="PREFER_TARGET_JDK_COMPILER" value="false" />
+  </component>
+</project>

@@ -12,6 +12,9 @@
         <module>concurrent</module>
         <module>algo</module>
         <module>util</module>
+        <module>hello-java</module>
+        <module>hello-redis</module>
+        <module>practice</module>
     </modules>
 
     <parent>

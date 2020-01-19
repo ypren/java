@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/algo/algo.iml" filepath="$PROJECT_DIR$/algo/algo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-java/hello-java.iml" filepath="$PROJECT_DIR$/hello-java/hello-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-redis/hello-redis.iml" filepath="$PROJECT_DIR$/hello-redis/hello-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java.iml" filepath="$PROJECT_DIR$/java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrent/java.concurrent.iml" filepath="$PROJECT_DIR$/concurrent/java.concurrent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice/practice.iml" filepath="$PROJECT_DIR$/practice/practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/util/util.iml" filepath="$PROJECT_DIR$/util/util.iml" />
+    </modules>
+  </component>
+</project>
