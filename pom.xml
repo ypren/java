@@ -15,6 +15,9 @@
         <module>hello-java</module>
         <module>hello-redis</module>
         <module>practice</module>
+        <module>hello-mq</module>
+        <module>aspect</module>
+        <module>hello-rocket</module>
     </modules>
 
     <parent>

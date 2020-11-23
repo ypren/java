@@ -9,24 +9,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>hello-java</artifactId>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>8</source>
-                    <target>8</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+    <artifactId>hello-mq</artifactId>
 
     <dependencies>
+        <!-- It's the best to set the version of amqp-client the same as the one defined in spring-rabbit.pom
+               for compatibility with Spring. If not, DO TESTS! -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
+            <version>4.0.3</version>
         </dependency>
 
         <dependency>
